@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header{
+        @apply py-4 text-2xl font-bold text-indigo-950;
+    }
+    .main{
+        @apply px-6 py-8 my-5 bg-white border-solid rounded-xl;
+    }
+    .button{
+        @apply pt-4 text-xl font-semibold text-pink-600;
+    }
+}
